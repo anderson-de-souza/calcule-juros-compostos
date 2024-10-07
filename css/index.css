@@ -1,0 +1,36 @@
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: var(--bs-body-bg);
+    outline: 0;
+    box-shadow: none
+}
+
+.bg-arrow {
+    width: 64px; 
+    height: 64px;
+    background-image: url('./../img/arrow_down.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media (min-width: 768px) {
+
+    .bg-arrow {
+        width: 108px; 
+        height: 108px;
+        background-image: url('./../img/arrow_down.svg');
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .bg-arrow {
+        width: 64px; 
+        height: 64px;
+        background-image: url('./../img/arrow_right.svg');
+    }
+
+}
